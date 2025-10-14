@@ -1,0 +1,9 @@
+train: /content/gdrive/MyDrive/Atividade_capitulo_1/Yolo_Dataset/images/train
+val: /content/gdrive/MyDrive/Atividade_capitulo_1/Yolo_Dataset/images/val
+test: /content/gdrive/MyDrive/Atividade_capitulo_1/Yolo_Dataset/images/test
+
+nc: 2
+
+names: 
+  0: "Cup"
+  1: "Bottle"
