@@ -72,7 +72,10 @@ Foram implementadas e avaliadas três abordagens distintas, conforme solicitado 
 
 **Nota:** Todos os modelos estão prontos para serem executados. Basta seguir os requisitos e executar as células no notebook principal.
 
-### 🤖 Modelo 1: YOLOv5 Custom (Entrega 1)
+### 🤖 Modelo 1: YOLOv5 Custom (Entrega 1) - Modelo principal
+- Link de acesso ao modelo no Repositório: [Yolo Customizado Github](scripts/LaisKurahashi_rm562155_pbl_fase6.ipynb)
+- Link de acesso ao Collab: [scripts/LaisKurahashi_rm562155_pbl_fase6.ipynb](https://drive.google.com/file/d/1M1EEk0zgGSBuA1_qX9E7pP6gtk9LKdeE/view?usp=drive_link))
+
 Este modelo foi treinado do zero utilizando nosso dataset customizado para a detecção de garrafas e copos.
 
 - **Treinamento:** 
@@ -83,6 +86,15 @@ Este modelo foi treinado do zero utilizando nosso dataset customizado para a det
     - **Imagem:** img 640
 
 - **Modelo Salvo:** O modelo treinado está disponível no Google Drive (yolov5/) e também neste repositório em config/yolov5.
+
+- **Passo a Passo da execução:**
+    - Basta executar todas as células do modelo que todo o ambiente será gerado.
+    - Após gerar todo o ambiente, será disponibilizada a pasta yolov5 onde estará armazenado os treinamentos referentes as execuções realizadas.
+        - Faça o caminho yolov5/runs/detect para ter acesso aos testes.
+          - exp: Testes feitos no modelo de 30 epocas.
+          - exp2: Testes feitos no modelo de 60 epocas.
+        - Faça o caminho yolov5/runs/val para ter acesso as validações realizadas durante o treinamento.
+        - Faça o caminho yolov5/runs/train para ter acesso aos dados de treino.
 
 #### Conclusão:
 
